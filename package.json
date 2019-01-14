@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-broken-image-placeholder",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "markdown-it plugin for replacing broken image link with fallback one",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
