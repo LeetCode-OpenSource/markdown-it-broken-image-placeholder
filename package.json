@@ -1,0 +1,58 @@
+{
+  "name": "markdown-it-broken-image-placeholder",
+  "version": "0.0.1",
+  "description": "markdown-it plugin for replacing broken image link with fallback one",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc -p ./tsconfig.json",
+    "lint": "tslint -p tsconfig.json --fix",
+    "prettier": "prettier --write '{playground,src}/**/*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeetCode-OpenSource/markdown-it-broken-image-placeholder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LeetCode-OpenSource/markdown-it-broken-image-placeholder/issues"
+  },
+  "homepage": "https://github.com/LeetCode-OpenSource/markdown-it-broken-image-placeholder#readme",
+  "keywords": [
+    "markdown-it",
+    "markdown-it-plugin"
+  ],
+  "author": "LeetCode front-end team",
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "prettier --write",
+      "tslint -p tsconfig.json --fix",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "@types/codemirror": "^0.0.70",
+    "@types/markdown-it": "^0.0.7",
+    "@types/react": "^16.7.17",
+    "@types/react-dom": "^16.0.11",
+    "husky": "^1.2.0",
+    "lint-staged": "^8.1.0",
+    "markdown-it": "^8.4.2",
+    "prettier": "1.15.3",
+    "tslib": "^1.9.3",
+    "tslint": "^5.11.0",
+    "tslint-eslint-rules": "^5.3.1",
+    "tslint-react": "^3.6.0",
+    "tslint-sonarts": "^1.7.0",
+    "typescript": "^3.1.6"
+  },
+  "peerDependencies": {
+    "markdown-it": "^8.4.2"
+  }
+}
