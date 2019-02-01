@@ -12,7 +12,10 @@ export function brokenImagePlaceholderPlugin(config: Config) {
       const token = tokens[index];
       const onError = token.attrGet('onerror') || '';
 
-      token.attrSet('onerror', `this.src='${config.fallbackLink}'; ${onError}`);
+      token.attrSet(
+        'onerror',
+        `this.src='${config.fallbackLink.replace(/'/g, '\\\'')}'; ${onError}`,
+      );
 
       return defaultRender(tokens, index, options, env, self);
     };
