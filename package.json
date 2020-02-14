@@ -37,7 +37,7 @@
     ]
   },
   "devDependencies": {
-    "@types/codemirror": "^0.0.84",
+    "@types/codemirror": "^0.0.85",
     "@types/markdown-it": "^0.0.9",
     "@types/react": "^16.7.17",
     "@types/react-dom": "^16.0.11",
