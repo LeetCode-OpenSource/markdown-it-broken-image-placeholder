@@ -32,10 +32,10 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@types/codemirror@^0.0.92":
-  version "0.0.92"
-  resolved "https://registry.yarnpkg.com/@types/codemirror/-/codemirror-0.0.92.tgz#2c548dae97e1af1ad1b6284fb0179fae51ca5b5e"
-  integrity sha512-P4FFvNNEmp+af6BC5p3qo2bTkpVu+Y5E/NYw8cFNXGfGsKgzL2ajXb9I1l4Egq+1n3Z7PkERZ/op5V/jFXZctA==
+"@types/codemirror@^0.0.93":
+  version "0.0.93"
+  resolved "https://registry.yarnpkg.com/@types/codemirror/-/codemirror-0.0.93.tgz#74ce5e1132325cb2c88a9bb91fd819294fe0c8ed"
+  integrity sha512-7F2ksY4U5amV/bIkMTev0n22RWcFO2BBuFuFYmAJIT19gr3kDElr1phgjPsNKV/Pj301bujnMjSy5GlWla+cow==
   dependencies:
     "@types/tern" "*"
 
