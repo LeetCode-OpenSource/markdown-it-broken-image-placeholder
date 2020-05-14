@@ -45,7 +45,7 @@
     "lint-staged": "^10.0.1",
     "markdown-it": "^10.0.0",
     "prettier": "2.0.5",
-    "tslib": "^1.9.3",
+    "tslib": "^2.0.0",
     "tslint": "^5.11.0",
     "tslint-eslint-rules": "^5.3.1",
     "tslint-react": "^4.1.0",
