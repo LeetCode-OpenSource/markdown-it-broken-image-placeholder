@@ -44,7 +44,7 @@
     "husky": "^4.0.0",
     "lint-staged": "^10.0.1",
     "markdown-it": "^12.0.0",
-    "prettier": "2.2.1",
+    "prettier": "2.3.2",
     "tslib": "^2.0.0",
     "tslint": "^5.11.0",
     "tslint-eslint-rules": "^5.3.1",
